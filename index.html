@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a03dd29370.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+          <!-- Home -->
+    <div class="container-fluid" id="home">
+      <div class=" row back d-flex flex-column justify-content-center">
+          <div class="navbar-up">
+              <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top w-100">
+                  <a class="navbar-brand ml-5" href="#">Suraj</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav mar-nav">
+                          <a class="nav-link active" href="#home">Home</a>
+                          <a class="nav-link" href="#about">About</a>
+                          <a class="nav-link" href="#education">Education</a>
+                          <a class="nav-link" href="#skills">Skills</a>
+                          <a class="nav-link" href="#contact">Contact</a>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+          <div class="ml-5" data-aos="slide-right" data-aos-duration="800">
+              <div>
+                  <h1 class="head-2" loop>Hi! I'm Suraj Kumar Das : <br> <span class="movable"></span></h1>
+              </div>
+              <p class="para-1">20 Years Old | Enthuastic | Frontend Developer | Backend Developer | <br> Graphic Designer | UX/UI Designer</p>
+          </div>
+          <div class="ml-5 butt" data-aos="flip-left" data-aos-duration="800">
+              <button class="button-1">Download CV</button>
+              <button class="button-2">Let's Talk</button>
+          </div>
+          <div class="ml-5 d-flex flex-row" data-aos="zoom-in" data-aos-duration="800">
+              <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                  </svg>
+              </div>
+              <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                      <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.64.64 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.64.64 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+                  </svg>
+              </div>
+              <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                  </svg>
+              </div>
+              <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                  </svg>
+              </div>
+              <div class="icons">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                  </svg>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- About Me -->
+  <div class="container-fluid" id="about">
+      <div class="row back-2">
+          <div class="text-white text-center col-12" data-aos="slide-right" data-aos-duration="800">
+              <h1 class="head-1 pt-5 pb-3">About <span class="me">Me</span></h1>
+          </div>
+
+          <div class="photo-con mb-3" data-aos="zoom-in" data-aos-duration="800">
+              <img class="photo-1" src="https://res.cloudinary.com/dybktfmor/image/upload/v1719293254/A_boy_coding_on_pc_mg9ym1.jpg" alt="">
+          </div>
+          <div class="col-12" data-aos="slide-right" data-aos-duration="800">
+              <p class="para-1 p-5">My name is <span class="name">Suraj Kumar Das</span>. I am Pursuing my B.Tech in Computer Science with Specialization in AI & ML at Odisha University of Technology and Research , Bhubaneswar. I cannot say with 100% confidence where I see myself in five years or what my big career goal is. The world is changing rapidly, and I don’t have enough professional experience to be certain about such things. However, I know that I can provide a fresh take and an extraordinary approach to every project. I am always open to challenges and constructive feedback. I am open-minded and learn new things quickly. I want to become a team player and dedicate all my skills and talents to develop high-quality and unique products.</p>
+          </div>
+          <div class="butt-1 pb-5">
+              <button class="button-1">Read More</button>
+          </div>
+      </div>
+  </div>
+  <!-- My Journey -->
+  <div class="back-2" id="education">
+      <div class="text-white text-center">
+          <h1 class="head-1 pt-5 pb-3">My <span class="me">Journey</span></h1>
+          <div class="d-flex flex-row">
+              <div class="w-50">
+                  <h1 class="head-4">Education</h1>
+              </div>
+              <div class="w-50 d-none d-md-block">
+                  <h1 class="head-4">Experience</h1>
+              </div>
+          </div>
+          <div class="container-fluid w-100">
+              <div class="row back-2">
+                  <div class="col-12 col-md-6 con" data-aos="slide-right" data-aos-duration="800">
+                      <div class="box">
+                          <h2 class="head-3">2023-2027</h2>
+                          <h1 class="head-4 text-white">Odisha University of Technology and Research,BBSR</h1>
+                          <p class="para-2">B.Tech in Computer Science(AI & ML)</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6 d-md-block d-none con" data-aos="slide-left" data-aos-duration="800">
+                      <div class="box pt-3 pb-3">
+                          <h2 class="head-3">June,2024-July,2024</h2>
+                          <h1 class="head-4 text-white">Web Developement Intern <br> - Prodigy Infotech</h1>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 con" data-aos="slide-right" data-aos-duration="800">
+                      <div class="box">
+                          <h2 class="head-3">2020-2022</h2>
+                          <h1 class="head-4 text-white">B.J.B Autonomus College,BBSR</h1>
+                          <p class="para-2">+2 Science (CHSE, Odisha)</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6 d-md-block d-none con" data-aos="slide-left" data-aos-duration="800">
+                      <div class="box pb-3 pt-3">
+                          <h2 class="head-3">June,2024-July,2024</h2>
+                          <h1 class="head-4 text-white">Web Developement Intern <br> - Bharat Intern </h1>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 con" data-aos="slide-right" data-aos-duration="800">
+                      <div class="box">
+                          <h2 class="head-3">2009-2020</h2>
+                          <h1 class="head-4 text-white">VIVEKANANDA PUBLIC SCHOOL,BBSR</h1>
+                          <p class="para-2">10th (CBSE, New Delhi)</p>
+                      </div>
+                  </div>
+                  <div class="col-md-6 d-md-block d-none con" data-aos="slide-left" data-aos-duration="800">
+                      <div class="box pb-3 pt-3">
+                          <h2 class="head-3">2017-2020</h2>
+                          <h1 class="head-4 text-white">Scout Troop Leader <br> - School Time</h1>
+                      </div>
+                  </div>
+                  <div class="d-block d-md-none con w-50">
+                      <h1 class="head-4">Experiences</h1>
+                  </div>
+                  <div class="con col-12 d-block d-md-none con" data-aos="slide-right" data-aos-duration="800">
+                      <div class="box pt-3 pb-3">
+                          <h2 class="head-3">June,2024-July,2024</h2>
+                          <h1 class="head-4 text-white">Web Developement Intern <br> - Prodigy Infotech</h1>
+                      </div>
+                  </div>
+                  <div class="con col-12 d-block d-md-none con" data-aos="slide-right" data-aos-duration="800">
+                      <div class="box pb-3 pt-3">
+                          <h2 class="head-3">June,2024-July,2024</h2>
+                          <h1 class="head-4 text-white">Web Developement Intern <br> - Bharat Intern </h1>
+                      </div>
+                  </div>
+                  <div class="con col-12 d-block d-md-none con" data-aos="slide-right" data-aos-duration="800">
+                      <div class="box pb-3 pt-3">
+                          <h2 class="head-3">2017-2020</h2>
+                          <h1 class="head-4 text-white">Scout Troop Leader <br> - School Time</h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- My Skills -->
+  <div class="back-2 w-100" id="skills">
+      <h1 class="head-1 pt-5 pb-3 text-center text-white">My <span class="me">Skills</span></h1>
+      <div class="d-flex flex-row">
+          <div class="w-50">
+              <h1 class="text-center head-4">Coding Skills</h1>
+          </div>
+          <div class="w-50 d-none d-md-block">
+              <h1 class=" text-center head-4">Professional Skills</h1>
+          </div>
+      </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-12 col-md-6 pr-4">
+                  <div class="box-2 p-2" data-aos="slide-right" data-aos-duration="800">
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">HTML</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">90%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-3">suraj</div>
+                          </div>
+                      </div>
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">CSS</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">70%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-4">suraj</div>
+                          </div>
+                      </div>
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">JavaScript</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">30%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-5">suraj</div>
+                          </div>
+                      </div>
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">Python</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">60%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-6">suraj</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- right side -->
+              <div class="d-block d-md-none text-center w-50">
+                  <h1 class="head-4 pt-2">Professional Skills</h1>
+              </div>
+              <div class="col-12 col-md-6 pr-4" data-aos="slide-left" data-aos-duration="800">
+                  <div class="box-2 p-2">
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">Web Design</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">95%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-7">suraj</div>
+                          </div>
+                      </div>
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">Web Developement</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">80%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-8">suraj</div>
+                          </div>
+                      </div>
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">Graphic Design</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">55%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-9">suraj</div>
+                          </div>
+                      </div>
+                      <div class="pt-3">
+                          <div class="d-flex flex-row">
+                              <div class="w-50 text-left">
+                                  <h1 class="head-4">UX/UI Design</h1>
+                              </div>
+                              <div class="w-50 text-right">
+                                  <p class="para-2">40%</p>
+                              </div>
+                          </div>
+                          <div class="pro_bor">
+                              <div class="back-10">suraj</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Contact Me -->
+  <div class="back-2 p-5" id="contact">
+      <h1 class="head-1 pt-5 pb-3 text-center text-white">Contact <span class="me">Me</span></h1>
+      <div class="contact_setup">
+          <div class="container-fluid w-100">
+              <div class="row">
+                  <div class="col-12 col-md-6 pb-3" data-aos="slide-right" data-aos-duration="800">
+                      <div class="field">
+                          <input class="field_input" type="text" placeholder="Full Name" />
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 pb-3" data-aos="slide-left" data-aos-duration="800">
+                      <div class="field">
+                          <input class="field_input" type="text" placeholder="Email Address" />
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 pb-3" data-aos="slide-right" data-aos-duration="800">
+                      <div class="field">
+                          <input class="field_input" type="text" placeholder="Mobile Number" />
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 pb-3" data-aos="slide-left" data-aos-duration="800">
+                      <div class="field">
+                          <input class="field_input" type="text" placeholder="Email Subject" />
+                      </div>
+                  </div>
+                  <div class="col-12 pb-3" data-aos="flip-left" data-aos-duration="800">
+                      <div class="field-1">
+                          <input class="field_input text-center" type="text" placeholder="Your Message" />
+                      </div>
+                  </div>
+                  <div class="butt-2">
+                      <button class="button-1">Submit</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="container-fluid">
+        <div class="row back-2">
+            <hr class="line">
+            <div class="text-center col-12">
+                <p class="para-3"><i class="fa-regular fa-copyright"></i> Copyright 2024</p>
+            </div>
+        </div>
+    </div>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="script.js"></script>
+    </body>
+</html>
